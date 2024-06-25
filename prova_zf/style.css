@@ -1,0 +1,74 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cinza claro para o fundo */
+    color: #333; /* Cor do texto principal */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para o conteúdo */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+a {
+    color: #3498db; /* Azul claro para links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    color: #333; /* Cor do título */
+}
+
+/* Estilos específicos para botões */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db; /* Azul claro para botões */
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2980b9; /* Azul mais escuro ao passar o mouse */
+}
+
+/* Estilos para tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Linha separadora cinza claro */
+}
+
+/* Estilos específicos para cores */
+.bg-black {
+    background-color: #000; /* Preto */
+    color: #fff; /* Texto branco */
+}
+
+.bg-gray {
+    background-color: #ccc; /* Cinza */
+}
+
+.bg-light-blue {
+    background-color: #3498db; /* Azul claro */
+    color: #fff; /* Texto branco */
+}
